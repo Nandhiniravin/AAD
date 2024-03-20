@@ -4,7 +4,6 @@
 }
 
 body {
-    /* background-color:#151e33; */
 background: rgb(25, 138, 161);
 background: radial-gradient(circle, rgb(22, 116, 135) 0%, rgb(7, 44, 72) 100%);
     margin: 0;
