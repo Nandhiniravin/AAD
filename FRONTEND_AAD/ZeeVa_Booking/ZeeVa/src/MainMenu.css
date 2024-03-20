@@ -1,0 +1,74 @@
+.main-menu {
+  background: radial-gradient(circle, rgb(12, 122, 144) 0%, rgb(4, 51, 87) 100%);
+  overflow-y: auto; /* Enable vertical scrolling if menu content exceeds height */
+    width: 200px;
+    height: 740px;
+
+  }
+  
+  .main-menu ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-menu ul li {
+    margin-bottom: 10px; /* Space between menu items */
+  }
+  
+  .main-menu ul li a {
+    display: block;
+    color: #fff; /* Text color for menu items */
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .main-menu ul li a:hover {
+    background-color: #065795; /* Background color on hover */
+  }
+  
+  .main-menu ul li.active a {
+    background-color: #007bff; /* Background color for active menu item */
+  }
+  
+  .main-menu ul li.has-subnav {
+    position: relative;
+  }
+  
+  .main-menu ul li.has-subnav > a:after {
+    content: "\f078"; /* Unicode for caret icon (down arrow) */
+    font-family: FontAwesome;
+    margin-left: 10px; /* Space between text and icon */
+  }
+  
+  .main-menu ul li.has-subnav.open > a:after {
+    content: "\f077"; /* Unicode for caret icon (up arrow) when submenu is open */
+  }
+  
+  .main-menu ul ul {
+    display: none; /* Hide submenus by default */
+    position: absolute;
+    top: 100%; /* Position below parent menu item */
+    left: 0;
+    background-color: #444; /* Background color for submenu */
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .main-menu ul li.has-subnav:hover > ul {
+    display: block; /* Show submenu on hover */
+  }
+  
+  .main-menu ul ul li {
+    margin-bottom: 0; /* Remove margin between submenu items */
+  }
+  
+  .main-menu ul ul li a {
+    padding: 8px 15px; /* Padding for submenu items */
+  }
+  
+  .main-menu ul ul li a:hover {
+    background-color: #555; /* Background color on submenu item hover */
+  }
+  
