@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+background: rgb(25, 138, 161);
+background: radial-gradient(circle, rgb(22, 116, 135) 0%, rgb(7, 44, 72) 100%);
+    margin: 0;
+}
+
+h1 {color: #9f4f6f;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: -15px;
+}
+
+#headerr{
+    margin-bottom: 50px;
+}
+
+#error{
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#dynamicc{
+    background-color:#16486d;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    width: 414px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+
+
+
+form{
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 414px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+
+input {
+    width: 50%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #4d899d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f3f5f6;
+    font-family: 'Dosis', sans-serif;
+}
+
+input::placeholder{
+    color: #e2ebee; 
+    margin-top: -10px;
+    margin-bottom: 5px;
+
+}
+
+input:focus{
+    outline:none;
+    color: rgb(198, 174, 174);
+}
+
+#login-button,
+#sign-button{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+    margin: 20px 8px;
+}
+
+
+#sign-button{
+    background-color: #30899a;
+    border-radius: 20px;
+}
+
+#sign-button:hover{
+    background-color: #6691ff;
+    border-radius: 20px;
+}
+a {
+    text-align:center;
+    color: #4d899d;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:hover{
+    color: #ec4f8d;
+}
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 1.5rem;
+    }
+    #containerr {
+        width: 100%;
+        height: 100vh;
+    }
+    #dynamicc {
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;   
+    }
+    form { 
+        width: 100%;
+    }
+    input {
+        font-size: 1.8rem;
+        color: #e2ebee;
+    }
+    button {
+        font-size: 1.5rem;
+    }
+} 

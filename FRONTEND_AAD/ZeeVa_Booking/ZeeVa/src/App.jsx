@@ -4,13 +4,9 @@ import MainMenu from './MainMenu';
 import Login from'./Login';
 import SignUp from './SignUp';
 import AddBookings from './AddBookings';
-
-
 import BookingTable from './BookingTable';
 import Admindash from './Admindash';
-
-
-
+import Adminadd from "./Adminadd";
 
 function App() {
   return(
@@ -25,7 +21,8 @@ function App() {
      <Route path ='/add'element={<AddBookings/>}></Route>
     <Route path='/admindash' element={<Admindash/>}></Route>
      <Route path='/table' element={<BookingTable/>}></Route>
-     </Routes>
+     <Route path='/adminadd' element={<Adminadd/>}></Route>
+          </Routes>
       </BrowserRouter>
     </div>
     </>

@@ -32,13 +32,13 @@ function MainMenu() {
           <li>
             <a href="#">
               <i className="fa fa-map-marker fa-2x"></i>
-             <Link to='/aboutus'> <span className="nav-text">About Us</span></Link>
+             <Link to='/add'> <span className="nav-text">Add Bookings</span></Link>
             </a>
           </li>
           <li>
             <a href="#">
               <i className="fa fa-info fa-2x"></i>
-              <Link to='/contact'><span className="nav-text">Contact Us</span></Link>
+              <Link to='/contact'><span className="nav-text">Available Boats</span></Link>
             </a>
           </li>
         </ul>

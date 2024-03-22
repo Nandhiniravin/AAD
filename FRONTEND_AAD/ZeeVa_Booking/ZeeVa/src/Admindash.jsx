@@ -31,12 +31,12 @@ function Admindash() {
                 <div className='card'>
                     <div className='card-inner'>
                         <h3>BOOKED</h3>
-                        
+                        <p></p>
                     </div>
-                    <h1>120</h1>
+                    <h1>107</h1>
                 </div>
                 <div className='card'>
-                    <div className='card-inner'>
+                    <div className='card-inner'>        
                         <h3>CANCELLED</h3>
                        
                     </div>
@@ -47,7 +47,7 @@ function Admindash() {
                         <h3>TOTAL AMOUNT</h3>
                         
                     </div>
-                    <h1>42,000</h1>
+                    <h1>35,000</h1>
                 </div>
             </div>
 
