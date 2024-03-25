@@ -1,5 +1,5 @@
 package com.example.Entity;
 
-public class Userentity {
+public class UserEntity {
     
 }
