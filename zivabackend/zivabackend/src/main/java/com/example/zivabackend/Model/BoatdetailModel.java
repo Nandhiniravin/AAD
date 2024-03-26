@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 
 public class BoatdetailModel {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy =  = GenerationType.AUTO)
     private int boatid;
       private String boatname;
       private String boatdescription;
